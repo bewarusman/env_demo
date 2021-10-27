@@ -14,4 +14,4 @@ http
     res.write(JSON.stringify(ENV_VARS));
     res.end();
   })
-  .listen(8080);
+  .listen(process.env.PORT);
